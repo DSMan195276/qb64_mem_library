@@ -194,6 +194,7 @@ DIM o as _OFFSET
 o = MEM_MALLOC%&(bytes)
 MEM_MEMSET o, 0, bytes
 $CHECKING:ON
+MEM_MALLOC0%& = o
 END FUNCTION
 
 !!endif
